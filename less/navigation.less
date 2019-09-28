@@ -1,1 +1,28 @@
 // Navigation code here
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background-color: @nav-bg;
+
+    .navlinks {
+        display: flex;
+        justify-content: space-between;
+        min-width: 300px;
+
+        a {
+            text-decoration: none;
+            color: @header-font-color;
+            font-size: 1.2rem;
+
+            &:hover {
+                background-color: rgb(233, 223, 223);
+                border-radius: 8px;
+            }
+
+        }
+    }
+}
