@@ -9,3 +9,19 @@
     color: @header-font-color;
     font-size: 1.2rem;
 }
+
+.button (@color, @background) {
+    text-align: center;
+    color: @color;
+    background: @background;
+    padding: 5px 0px;
+    border-radius: 3px;
+    width: 25%;
+    font-size: 1.5rem;
+
+    &:hover {
+        color: @btn-bg-color;
+        background: gold;
+        cursor: pointer;
+    }
+}
