@@ -147,7 +147,7 @@ h5 {
 }
 h1 {
   font-size: 3.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 h2 {
   font-size: 3.2rem;
@@ -170,7 +170,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding-top: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   background-color: #F6F6F6;
 }
 .navigator .navlinks {
